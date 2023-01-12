@@ -1,4 +1,3 @@
-
 <h2><?= $data['title']; ?></h2>
 
 <h4>Auto van instructeur: Manhoi</h4>
@@ -21,4 +20,3 @@
 <a href="<?= URLROOT; ?>/mankement/create/<?= $data['AutoId']; ?>">
     <input type="button" value="Mankement Toevoegen">
 </a>
-

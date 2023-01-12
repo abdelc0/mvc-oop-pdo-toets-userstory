@@ -6,20 +6,20 @@
 <h4><?= 'Kenteken Auto: ' .  $data['Kenteken'] ?></h4>
 
 <table border='1'>
-    <thead>
-        <th>Datum</th>
-        <th>Mankement</th>
-    </thead>
+  <thead>
+    <th>Datum</th>
+    <th>Mankement</th>
+  </thead>
 
-    <tbody>
+  <tbody>
 
-        <?= $data['rows'] ?>
-    </tbody>
+    <?= $data['rows'] ?>
+  </tbody>
 </table>
 
 <br>
-<a href="<?= URLROOT; ?>/mankement/addMankement/<?= $data['AutoId']; ?>">
-    <input type="button" value="Mankement Toevoegen">
+<a href="<?= URLROOT; ?>/mankement/create/<?= $data['AutoId']; ?>">
+  <input type="button" value="Mankement Toevoegen">
 </a>
 
 <?php require(APPROOT . '/views/includes/footer.php'); ?>
