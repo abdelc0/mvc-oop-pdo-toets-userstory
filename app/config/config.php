@@ -2,7 +2,7 @@
     define('DB_HOST', 'localhost');
     define('DB_USER', 'root');
     define('DB_PASS', '');
-    define('DB_NAME', 'mvc-2109a');
+    define('DB_NAME', 'mvc-framework');
     
 
     define('APPROOT', dirname(dirname(__FILE__)));
