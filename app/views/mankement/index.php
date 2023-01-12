@@ -18,7 +18,7 @@
 </table>
 
 <br>
-<a href="<?= URLROOT; ?>/mankement/addMankement/<?= $data['AutoId']; ?>">
+<a href="<?= URLROOT; ?>/mankement/create/<?= $data['AutoId']; ?>">
     <input type="button" value="Mankement Toevoegen">
 </a>
 
